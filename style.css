@@ -1,0 +1,145 @@
+body {
+			font: 16px/20px georgia, sans-serif;
+			background-color: lightgray;
+			color: #696969;
+			background-image: url(pattern.jpg);
+		}
+
+		.container {
+			display: flex;
+			max-width: 1200px;
+		}
+
+		.top-bar {
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			margin-left: 80px;
+			margin-right: 80px;
+			font-size: 20px;
+			background-color: peachpuff;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			z-index: 99999;
+
+		}
+		
+		.a {
+			text-decoration: none;
+			color: salmon;
+			padding: 3px;
+		}
+
+		.a:hover {
+			background-color: lightskyblue;
+			color: ghostwhite;
+		}
+
+		.menu {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+
+		.menu li {
+			margin-right: 15px;
+		}
+
+		.nama { font-weight:bold; }
+
+		.header {
+			padding: 20px;
+			padding-bottom: 10px;
+		}
+
+		.judul {
+			margin-left: 400px;
+		}
+
+		.header.judul {
+			font-size: 90px;
+			font-weight: bold;
+			margin-left: 15px;
+			margin-top: 15px;
+			text-align: center;
+		}
+
+		.header .quotes {
+			margin-left: 600px;
+		}
+
+		.img {
+			text-decoration: none;
+			color: salmon;
+			padding: 10px;
+			margin-left: 100px;
+		}
+
+		.main .simbol {
+			margin: 50px;
+			font-size: 30;
+			margin-left: 160px;
+			margin-top: 10px;
+		}
+
+		.content .company {
+			flex: 1;
+			padding: 20px;
+			margin: 80px;
+			margin-left: 175px;
+			margin-top: -65px;
+}
+		.icon {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			display: flex;
+			background-color: lightcoral;
+			margin-left: 120px;
+			margin-bottom: -20px;
+
+		}
+
+		.year {
+			margin: 90px;
+			margin-top: -80px;
+			margin-left: 255px;
+		}
+
+		.question {
+			height: 800px;
+			width: 600px;
+			margin-left: 100px;
+			margin-top: -20px;
+		}
+
+		.square {
+			width: 400px;
+			height: 700px;
+			font-size: 22px;
+		}
+
+		ol li::before {
+			content: counter(list-counter);
+			background-color: lightskyblue;
+			border-radius: 50%;
+			padding: 4px 8px;
+			display: inline-block;
+
+		}
+
+		.sidebar {
+			float: right;
+			height: 500px;
+			padding: 20px;
+			flex-basis: 300px;
+			padding: 20px;
+			width: 500px;
+			margin-top: -1360px;
+			margin-right: 100px;
+			text-align: justify-all;
+			background-color: snow;
+		}
+		
